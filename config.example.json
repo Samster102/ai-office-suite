@@ -1,0 +1,32 @@
+{
+  "ai": {
+    "provider": "openai",
+    "api_key": "your-openai-api-key-here",
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "max_tokens": 2000
+  },
+  "app": {
+    "theme": "dark",
+    "window_width": 1400,
+    "window_height": 900,
+    "auto_save": true,
+    "auto_save_interval": 60,
+    "recent_files_limit": 10,
+    "language": "en"
+  },
+  "features": {
+    "enable_ai_writing": true,
+    "enable_data_analysis": true,
+    "enable_chart_generation": true,
+    "enable_translation": false,
+    "enable_export_pdf": true
+  },
+  "paths": {
+    "documents_dir": "./documents",
+    "presentations_dir": "./presentations",
+    "spreadsheets_dir": "./spreadsheets",
+    "exports_dir": "./exports",
+    "temp_dir": "./temp"
+  }
+}
